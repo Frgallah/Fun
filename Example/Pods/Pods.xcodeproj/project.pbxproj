@@ -15,7 +15,7 @@
 		AE3FDF49374F2431D4B8D2134D18FBE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C0800184BB1C4C8C055FC1181F5A98C2 /* Pods-Fun_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AC4A001E8A12E70B26BB19A85EDDAB /* Pods-Fun_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEF71A6AD1D0FB8040A9B18C69E056DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F46489771EB1611900B44BE5 /* FunNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489761EB1611900B44BE5 /* FunNavigationControllerDelegate.swift */; };
+		F46489791EB161A700B44BE5 /* FunNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489781EB161A700B44BE5 /* FunNavigationControllerDelegate.swift */; };
 		F9CBFFAA03CADBD0F9A37F5F81DF645D /* Pods-Fun_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB14749493093EA0B45DA18CA467CC /* Pods-Fun_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +60,7 @@
 		E1AC4A001E8A12E70B26BB19A85EDDAB /* Pods-Fun_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fun_Example-umbrella.h"; sourceTree = "<group>"; };
 		E40144947D0FA8BD5BBF2F213311520B /* Pods-Fun_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fun_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E938419251D1A226ACE5FFCA2CBCDFE1 /* Pods-Fun_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fun_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F46489761EB1611900B44BE5 /* FunNavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunNavigationControllerDelegate.swift; path = ../Sources/FunControllerDelegates/FunNavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		F46489781EB161A700B44BE5 /* FunNavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunNavigationControllerDelegate.swift; path = ../Sources/FunControllerDelegates/FunNavigationControllerDelegate.swift; sourceTree = "<group>"; };
 		F4B21C424E35D2ACA44EC8C1966CD74C /* Pods-Fun_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fun_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -221,7 +221,7 @@
 		F46489721EB15DA400B44BE5 /* FunControllerDelegates */ = {
 			isa = PBXGroup;
 			children = (
-				F46489761EB1611900B44BE5 /* FunNavigationControllerDelegate.swift */,
+				F46489781EB161A700B44BE5 /* FunNavigationControllerDelegate.swift */,
 			);
 			name = FunControllerDelegates;
 			sourceTree = "<group>";
@@ -375,7 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46489771EB1611900B44BE5 /* FunNavigationControllerDelegate.swift in Sources */,
+				F46489791EB161A700B44BE5 /* FunNavigationControllerDelegate.swift in Sources */,
 				9411CC927A734146D117A4E3B1ECFEE0 /* Fun-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
