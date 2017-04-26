@@ -15,7 +15,17 @@
 		AE3FDF49374F2431D4B8D2134D18FBE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		C0800184BB1C4C8C055FC1181F5A98C2 /* Pods-Fun_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AC4A001E8A12E70B26BB19A85EDDAB /* Pods-Fun_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEF71A6AD1D0FB8040A9B18C69E056DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F46489791EB161A700B44BE5 /* FunNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489781EB161A700B44BE5 /* FunNavigationControllerDelegate.swift */; };
+		F46489841EB1638800B44BE5 /* FunNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489831EB1638800B44BE5 /* FunNavigationControllerDelegate.swift */; };
+		F46489891EB1647400B44BE5 /* FunTabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489881EB1647400B44BE5 /* FunTabBarControllerDelegate.swift */; };
+		F464898B1EB1649D00B44BE5 /* FunModalControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464898A1EB1649D00B44BE5 /* FunModalControllerDelegate.swift */; };
+		F464898D1EB164C500B44BE5 /* FunAnimatedInteractiveTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464898C1EB164C500B44BE5 /* FunAnimatedInteractiveTransitioning.swift */; };
+		F464898F1EB1650D00B44BE5 /* FunTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464898E1EB1650D00B44BE5 /* FunTransitionAnimator.swift */; };
+		F46489911EB1653B00B44BE5 /* FunTransitionLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489901EB1653B00B44BE5 /* FunTransitionLoader.swift */; };
+		F46489931EB1658800B44BE5 /* FunZoomBlurTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489921EB1658800B44BE5 /* FunZoomBlurTransition.swift */; };
+		F46489951EB165BC00B44BE5 /* FunCrystallizeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489941EB165BC00B44BE5 /* FunCrystallizeTransition.swift */; };
+		F46489971EB165E400B44BE5 /* FunCircleSplashTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489961EB165E400B44BE5 /* FunCircleSplashTransition.swift */; };
+		F46489991EB1660C00B44BE5 /* FunCircularScreenTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489981EB1660C00B44BE5 /* FunCircularScreenTransition.swift */; };
+		F464899B1EB1663100B44BE5 /* FunKaleidoscopeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464899A1EB1663100B44BE5 /* FunKaleidoscopeTransition.swift */; };
 		F9CBFFAA03CADBD0F9A37F5F81DF645D /* Pods-Fun_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB14749493093EA0B45DA18CA467CC /* Pods-Fun_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +70,17 @@
 		E1AC4A001E8A12E70B26BB19A85EDDAB /* Pods-Fun_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fun_Example-umbrella.h"; sourceTree = "<group>"; };
 		E40144947D0FA8BD5BBF2F213311520B /* Pods-Fun_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fun_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E938419251D1A226ACE5FFCA2CBCDFE1 /* Pods-Fun_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fun_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F46489781EB161A700B44BE5 /* FunNavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunNavigationControllerDelegate.swift; path = ../Sources/FunControllerDelegates/FunNavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		F46489831EB1638800B44BE5 /* FunNavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunNavigationControllerDelegate.swift; path = Sources/FunControllerDelegates/FunNavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		F46489881EB1647400B44BE5 /* FunTabBarControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunTabBarControllerDelegate.swift; path = Sources/FunControllerDelegates/FunTabBarControllerDelegate.swift; sourceTree = "<group>"; };
+		F464898A1EB1649D00B44BE5 /* FunModalControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunModalControllerDelegate.swift; path = Sources/FunControllerDelegates/FunModalControllerDelegate.swift; sourceTree = "<group>"; };
+		F464898C1EB164C500B44BE5 /* FunAnimatedInteractiveTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunAnimatedInteractiveTransitioning.swift; path = Sources/FunInteractiveTransitioning/FunAnimatedInteractiveTransitioning.swift; sourceTree = "<group>"; };
+		F464898E1EB1650D00B44BE5 /* FunTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunTransitionAnimator.swift; path = Sources/FunTransitionsMain/FunTransitionAnimator.swift; sourceTree = "<group>"; };
+		F46489901EB1653B00B44BE5 /* FunTransitionLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunTransitionLoader.swift; path = Sources/FunTransitionsMain/FunTransitionLoader.swift; sourceTree = "<group>"; };
+		F46489921EB1658800B44BE5 /* FunZoomBlurTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunZoomBlurTransition.swift; path = Sources/FunTransitions/FunZoomBlurTransition.swift; sourceTree = "<group>"; };
+		F46489941EB165BC00B44BE5 /* FunCrystallizeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunCrystallizeTransition.swift; path = Sources/FunTransitions/FunCrystallizeTransition.swift; sourceTree = "<group>"; };
+		F46489961EB165E400B44BE5 /* FunCircleSplashTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunCircleSplashTransition.swift; path = Sources/FunTransitions/FunCircleSplashTransition.swift; sourceTree = "<group>"; };
+		F46489981EB1660C00B44BE5 /* FunCircularScreenTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunCircularScreenTransition.swift; path = Sources/FunTransitions/FunCircularScreenTransition.swift; sourceTree = "<group>"; };
+		F464899A1EB1663100B44BE5 /* FunKaleidoscopeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunKaleidoscopeTransition.swift; path = Sources/FunTransitions/FunKaleidoscopeTransition.swift; sourceTree = "<group>"; };
 		F4B21C424E35D2ACA44EC8C1966CD74C /* Pods-Fun_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fun_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,7 +147,7 @@
 		5BFDE1125FFCB7CF713ADD31DDE34E20 /* Fun */ = {
 			isa = PBXGroup;
 			children = (
-				A5ADD604F6940A8886303426081A8DFB /* Sources */,
+				F464897F1EB1633800B44BE5 /* Sources */,
 				13C1F6D51AA773984F7605B5D6EBF03F /* Support Files */,
 			);
 			name = Fun;
@@ -161,18 +181,6 @@
 				668F4FC0A71C001479B8C91EE07C83B2 /* Products */,
 				AB198583F556FD731012FCF161BF8F8A /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		A5ADD604F6940A8886303426081A8DFB /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				F46489721EB15DA400B44BE5 /* FunControllerDelegates */,
-				F46489731EB15DB300B44BE5 /* FunInteractiveTransitioning */,
-				F46489751EB15DD900B44BE5 /* FunTransitionsMain */,
-				F46489741EB15DC500B44BE5 /* FunTransitions */,
-			);
-			name = Sources;
-			path = Fun;
 			sourceTree = "<group>";
 		};
 		AB198583F556FD731012FCF161BF8F8A /* Targets Support Files */ = {
@@ -218,33 +226,54 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F46489721EB15DA400B44BE5 /* FunControllerDelegates */ = {
+		F464897F1EB1633800B44BE5 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F46489781EB161A700B44BE5 /* FunNavigationControllerDelegate.swift */,
+				F46489801EB1634000B44BE5 /* FunControllerDelegates */,
+				F46489851EB163D200B44BE5 /* FunInteractiveTransitioning */,
+				F46489861EB163FA00B44BE5 /* FunTransitionsMain */,
+				F46489871EB1641100B44BE5 /* FunTransitions */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		F46489801EB1634000B44BE5 /* FunControllerDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				F46489831EB1638800B44BE5 /* FunNavigationControllerDelegate.swift */,
+				F46489881EB1647400B44BE5 /* FunTabBarControllerDelegate.swift */,
+				F464898A1EB1649D00B44BE5 /* FunModalControllerDelegate.swift */,
 			);
 			name = FunControllerDelegates;
 			sourceTree = "<group>";
 		};
-		F46489731EB15DB300B44BE5 /* FunInteractiveTransitioning */ = {
+		F46489851EB163D200B44BE5 /* FunInteractiveTransitioning */ = {
 			isa = PBXGroup;
 			children = (
+				F464898C1EB164C500B44BE5 /* FunAnimatedInteractiveTransitioning.swift */,
 			);
 			name = FunInteractiveTransitioning;
 			sourceTree = "<group>";
 		};
-		F46489741EB15DC500B44BE5 /* FunTransitions */ = {
+		F46489861EB163FA00B44BE5 /* FunTransitionsMain */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = FunTransitions;
-			sourceTree = "<group>";
-		};
-		F46489751EB15DD900B44BE5 /* FunTransitionsMain */ = {
-			isa = PBXGroup;
-			children = (
+				F464898E1EB1650D00B44BE5 /* FunTransitionAnimator.swift */,
+				F46489901EB1653B00B44BE5 /* FunTransitionLoader.swift */,
 			);
 			name = FunTransitionsMain;
+			sourceTree = "<group>";
+		};
+		F46489871EB1641100B44BE5 /* FunTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				F46489921EB1658800B44BE5 /* FunZoomBlurTransition.swift */,
+				F46489941EB165BC00B44BE5 /* FunCrystallizeTransition.swift */,
+				F46489961EB165E400B44BE5 /* FunCircleSplashTransition.swift */,
+				F46489981EB1660C00B44BE5 /* FunCircularScreenTransition.swift */,
+				F464899A1EB1663100B44BE5 /* FunKaleidoscopeTransition.swift */,
+			);
+			name = FunTransitions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,8 +404,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F46489791EB161A700B44BE5 /* FunNavigationControllerDelegate.swift in Sources */,
+				F46489911EB1653B00B44BE5 /* FunTransitionLoader.swift in Sources */,
+				F464898B1EB1649D00B44BE5 /* FunModalControllerDelegate.swift in Sources */,
+				F46489991EB1660C00B44BE5 /* FunCircularScreenTransition.swift in Sources */,
+				F46489951EB165BC00B44BE5 /* FunCrystallizeTransition.swift in Sources */,
+				F464898D1EB164C500B44BE5 /* FunAnimatedInteractiveTransitioning.swift in Sources */,
+				F464899B1EB1663100B44BE5 /* FunKaleidoscopeTransition.swift in Sources */,
+				F46489891EB1647400B44BE5 /* FunTabBarControllerDelegate.swift in Sources */,
+				F46489931EB1658800B44BE5 /* FunZoomBlurTransition.swift in Sources */,
+				F464898F1EB1650D00B44BE5 /* FunTransitionAnimator.swift in Sources */,
+				F46489841EB1638800B44BE5 /* FunNavigationControllerDelegate.swift in Sources */,
 				9411CC927A734146D117A4E3B1ECFEE0 /* Fun-dummy.m in Sources */,
+				F46489971EB165E400B44BE5 /* FunCircleSplashTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
