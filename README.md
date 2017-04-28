@@ -166,7 +166,7 @@ frgallah, frgallah@outlook.com
 **1. ZoomBlur**
 
 <div>
-<img src="https://cdn.rawgit.com/Frgallah/MasterTransitions/a6e2bfa1/Documentation/Gifs/push2.gif"  width="200"/>
+<img src="https://cdn.rawgit.com/Frgallah/Fun/b53c4df3/Documentation/Gifs/zoomBlur.gif"  width="200"/>
 </div>
 
 ----------
@@ -174,7 +174,7 @@ frgallah, frgallah@outlook.com
 **2. Crystallize**
 
 <div>
-<img src="https://cdn.rawgit.com/Frgallah/MasterTransitions/a6e2bfa1/Documentation/Gifs/pull1.gif" width="200"/>
+<img src="https://cdn.rawgit.com/Frgallah/Fun/b53c4df3/Documentation/Gifs/crystallize.gif" width="200"/>
 </div>
 
 ----------
@@ -182,7 +182,7 @@ frgallah, frgallah@outlook.com
 **3. CircleSplash**
 
 <div>
-<img src="https://cdn.rawgit.com/Frgallah/MasterTransitions/a6e2bfa1/Documentation/Gifs/swingDoor.gif" width="200"/>
+<img src="https://cdn.rawgit.com/Frgallah/Fun/b53c4df3/Documentation/Gifs/circleSplash.gif" width="200"/>
 </div>
 
 ----------
@@ -190,7 +190,7 @@ frgallah, frgallah@outlook.com
 **4. CircularScreen**
 
 <div>
-<img src="https://cdn.rawgit.com/Frgallah/MasterTransitions/a6e2bfa1/Documentation/Gifs/door2.gif" width="200"/>
+<img src="https://cdn.rawgit.com/Frgallah/Fun/b53c4df3/Documentation/Gifs/circularScreen.gif" width="200"/>
 </div>
 
 ----------
@@ -198,7 +198,7 @@ frgallah, frgallah@outlook.com
 **5. Kaleidoscope**
 
 <div>
-<img src="https://cdn.rawgit.com/Frgallah/MasterTransitions/a6e2bfa1/Documentation/Gifs/door3.gif" width="200"/>
+<img src="https://cdn.rawgit.com/Frgallah/Fun/b53c4df3/Documentation/Gifs/kaleidoscope.gif" width="200"/>
 </div>
 
 ----------
