@@ -7,25 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01908880DE13735F3DD882146A48C236 /* Fun-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C494737BB719894D7854217D5FAF2433 /* Fun-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0FA3825EB9EBFD6AAFA8499742B76473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0228FAB74D3D6D84A02551152D7C8329 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97132B3BB8F4008826BF9C879F5875C /* Foundation.framework */; };
+		0FA3825EB9EBFD6AAFA8499742B76473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97132B3BB8F4008826BF9C879F5875C /* Foundation.framework */; };
+		2BCCBFD459852B474DF7CDE773D5FFB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B604C8852EF4AD083709F03EA35B7AA /* UIKit.framework */; };
+		2DD6214D54D5B476D0AC5EB5FF7B3FF6 /* FunTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D513C986497732171A33D3B3C4008AF /* FunTransitionAnimator.swift */; };
 		300FCF4F09911E7174B20B4F337453E9 /* Pods-Fun_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2A4A91426F12955918DDB22A241D0B /* Pods-Fun_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3139EC0BDE0E44BB6FDB0EDA4172E4C0 /* Fun-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D5C3896D064960227BA85E39C8B8E8 /* Fun-dummy.m */; };
+		3F9339D690D524BCB9E21F394D0FECA2 /* FunTabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B9EE2493227DFDFC795B7030928FA /* FunTabBarControllerDelegate.swift */; };
+		4615A9204209BD2E9C914B16560AA992 /* FunNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C7937E48261FF2C2F2663571EB2CB5 /* FunNavigationControllerDelegate.swift */; };
+		4E72A151C4F5A0EAADECE6672AF9BD2B /* FunCircularScreenTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A883ADEC38138F2554DFEA142E4403 /* FunCircularScreenTransition.swift */; };
+		6F0EFCA005606F7864248A21CC5DAF13 /* FunCircleSplashTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270EF81A7D754A53A43AE89229CEE913 /* FunCircleSplashTransition.swift */; };
 		7D503EB1914F72BCFBC7A071DDD7D447 /* Pods-Fun_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0FD594AF444421AF376BBFF7AF3F922 /* Pods-Fun_Tests-dummy.m */; };
-		9411CC927A734146D117A4E3B1ECFEE0 /* Fun-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 990E2ACAFEFF4C674A317442A23402B4 /* Fun-dummy.m */; };
-		AE3FDF49374F2431D4B8D2134D18FBE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9520C422A69684A0B30EF6FAFE6CF404 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19754A3A6A6E5D6C2C5543679B0CD22 /* GLKit.framework */; };
+		A13D3B41CAFC6155D2794D205C0EC6F9 /* FunAnimatedInteractiveTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9886BD42CD265D35403FE501EE468 /* FunAnimatedInteractiveTransitioning.swift */; };
+		AABCB86BEE653332DB76D9010B6EA4A2 /* Fun-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1F5D050530F749BAF05EB63AFAD0C8 /* Fun-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE3FDF49374F2431D4B8D2134D18FBE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97132B3BB8F4008826BF9C879F5875C /* Foundation.framework */; };
+		B6080EF3E18321E550CE9E0CE9C8E1BA /* FunCrystallizeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE810DA61AE4D718BFB8FF115E0899 /* FunCrystallizeTransition.swift */; };
 		C0800184BB1C4C8C055FC1181F5A98C2 /* Pods-Fun_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1AC4A001E8A12E70B26BB19A85EDDAB /* Pods-Fun_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEF71A6AD1D0FB8040A9B18C69E056DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		F46489841EB1638800B44BE5 /* FunNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489831EB1638800B44BE5 /* FunNavigationControllerDelegate.swift */; };
-		F46489891EB1647400B44BE5 /* FunTabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489881EB1647400B44BE5 /* FunTabBarControllerDelegate.swift */; };
-		F464898B1EB1649D00B44BE5 /* FunModalControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464898A1EB1649D00B44BE5 /* FunModalControllerDelegate.swift */; };
-		F464898D1EB164C500B44BE5 /* FunAnimatedInteractiveTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464898C1EB164C500B44BE5 /* FunAnimatedInteractiveTransitioning.swift */; };
-		F464898F1EB1650D00B44BE5 /* FunTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464898E1EB1650D00B44BE5 /* FunTransitionAnimator.swift */; };
-		F46489911EB1653B00B44BE5 /* FunTransitionLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489901EB1653B00B44BE5 /* FunTransitionLoader.swift */; };
-		F46489931EB1658800B44BE5 /* FunZoomBlurTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489921EB1658800B44BE5 /* FunZoomBlurTransition.swift */; };
-		F46489951EB165BC00B44BE5 /* FunCrystallizeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489941EB165BC00B44BE5 /* FunCrystallizeTransition.swift */; };
-		F46489971EB165E400B44BE5 /* FunCircleSplashTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489961EB165E400B44BE5 /* FunCircleSplashTransition.swift */; };
-		F46489991EB1660C00B44BE5 /* FunCircularScreenTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489981EB1660C00B44BE5 /* FunCircularScreenTransition.swift */; };
-		F464899B1EB1663100B44BE5 /* FunKaleidoscopeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464899A1EB1663100B44BE5 /* FunKaleidoscopeTransition.swift */; };
+		C6E4FEEE3F0BF914EB0BFAE1765A541E /* FunZoomBlurTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D40C4F545BD62B39282AC92ED03008B /* FunZoomBlurTransition.swift */; };
+		C8B5AD572B177EE74183FFFB07E5A158 /* FunCoreImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A197BC9E1894A27F3CBE73F77A7D6 /* FunCoreImageTransition.swift */; };
+		CC14D8A72622AD3DFF5C47F166D1B290 /* FunModalControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB4E95A6667267573ED0F42C675231 /* FunModalControllerDelegate.swift */; };
+		D45A879A5C5363B90CEA39B7C42A2CDE /* FunKaleidoscopeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70727A2B08C59938DC16B9084933E59 /* FunKaleidoscopeTransition.swift */; };
+		E7272C01ECF83B271E21649AD93760AD /* FunTransitionLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A907A134A5C040A2A4DEC3DE9CD053F /* FunTransitionLoader.swift */; };
 		F9CBFFAA03CADBD0F9A37F5F81DF645D /* Pods-Fun_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EDB14749493093EA0B45DA18CA467CC /* Pods-Fun_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -34,53 +37,56 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1D503C77D6A9C69BA39C53141827943A;
+			remoteGlobalIDString = EC82D27BEF01E20DA2EBA701BCCFAB94;
 			remoteInfo = Fun;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0109342532E866E646D45E56E0E8F97E /* Pods-Fun_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fun_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		050A197BC9E1894A27F3CBE73F77A7D6 /* FunCoreImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunCoreImageTransition.swift; sourceTree = "<group>"; };
 		0FA5442EFACE76B1C69D9E5F961BB172 /* Pods-Fun_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fun_Example-frameworks.sh"; sourceTree = "<group>"; };
-		20D46314E032907662B5DEE8C21CD4E4 /* Pods-Fun_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Fun_Example.modulemap"; sourceTree = "<group>"; };
+		1D40C4F545BD62B39282AC92ED03008B /* FunZoomBlurTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunZoomBlurTransition.swift; sourceTree = "<group>"; };
+		20D46314E032907662B5DEE8C21CD4E4 /* Pods-Fun_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Fun_Example.modulemap"; sourceTree = "<group>"; };
 		221B5AAD995558EB09C7D9A0D207A6A6 /* Pods-Fun_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fun_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		270EF81A7D754A53A43AE89229CEE913 /* FunCircleSplashTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunCircleSplashTransition.swift; sourceTree = "<group>"; };
+		28C7937E48261FF2C2F2663571EB2CB5 /* FunNavigationControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunNavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		2B604C8852EF4AD083709F03EA35B7AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2EDB14749493093EA0B45DA18CA467CC /* Pods-Fun_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fun_Example-dummy.m"; sourceTree = "<group>"; };
-		2F48E1B456EAC918415A3B33C8D19B7F /* Pods_Fun_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fun_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F48E1B456EAC918415A3B33C8D19B7F /* Pods_Fun_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fun_Tests.framework; path = "Pods-Fun_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3246EB4D51FA855BC482418D3C805137 /* Pods-Fun_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Fun_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3D38A3F8FE148788EE48CCB8B9089DEE /* Fun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Fun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D38A3F8FE148788EE48CCB8B9089DEE /* Fun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Fun.framework; path = Fun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4582F851953997B8B82CBFE82DA13ACB /* Pods-Fun_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fun_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4C7CCBCB3D7C6D6E07A306D9B3FCFD7D /* Pods-Fun_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Fun_Tests.modulemap"; sourceTree = "<group>"; };
+		4C7CCBCB3D7C6D6E07A306D9B3FCFD7D /* Pods-Fun_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Fun_Tests.modulemap"; sourceTree = "<group>"; };
 		550087CBF6F2D182A5036F29E3C588B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55DE810DA61AE4D718BFB8FF115E0899 /* FunCrystallizeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunCrystallizeTransition.swift; sourceTree = "<group>"; };
+		5A907A134A5C040A2A4DEC3DE9CD053F /* FunTransitionLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunTransitionLoader.swift; sourceTree = "<group>"; };
 		5B38455A621329DC42AE91CBC4E4C83B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5FB695B2FF7104A000DD3CA7E3F091CD /* Fun.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Fun.modulemap; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5D513C986497732171A33D3B3C4008AF /* FunTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunTransitionAnimator.swift; sourceTree = "<group>"; };
 		7C212D81B49447E9549A164F972594F7 /* Pods-Fun_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fun_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98BCB93327326F6C8537C6C289A54D95 /* Fun.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fun.xcconfig; sourceTree = "<group>"; };
-		990E2ACAFEFF4C674A317442A23402B4 /* Fun-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fun-dummy.m"; sourceTree = "<group>"; };
+		8B1F5D050530F749BAF05EB63AFAD0C8 /* Fun-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fun-umbrella.h"; sourceTree = "<group>"; };
+		8CB9886BD42CD265D35403FE501EE468 /* FunAnimatedInteractiveTransitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunAnimatedInteractiveTransitioning.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		974965AF14B88BB023DDD924DF612C44 /* Fun-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fun-prefix.pch"; sourceTree = "<group>"; };
+		A6D5C3896D064960227BA85E39C8B8E8 /* Fun-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Fun-dummy.m"; sourceTree = "<group>"; };
+		A6DA99D84E1FBC7FC73C5A8363E8CAEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A70727A2B08C59938DC16B9084933E59 /* FunKaleidoscopeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunKaleidoscopeTransition.swift; sourceTree = "<group>"; };
+		AE985018E801A9F728B6DEA0FCE400E2 /* Fun.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fun.xcconfig; sourceTree = "<group>"; };
 		B307A0D453101DA90EA8C2C12B66DAC9 /* Pods-Fun_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fun_Example-resources.sh"; sourceTree = "<group>"; };
-		B8E4C56BB0879FD427AB90E11B42FD2C /* Fun-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fun-prefix.pch"; sourceTree = "<group>"; };
-		BF7CE0B597FC088E9CAE573F04E24790 /* Pods_Fun_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fun_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C494737BB719894D7854217D5FAF2433 /* Fun-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Fun-umbrella.h"; sourceTree = "<group>"; };
-		CB0C3C9842C6E1E2ACD451FEDA223ABD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7CE0B597FC088E9CAE573F04E24790 /* Pods_Fun_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Fun_Example.framework; path = "Pods-Fun_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BB4E95A6667267573ED0F42C675231 /* FunModalControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunModalControllerDelegate.swift; sourceTree = "<group>"; };
+		C97132B3BB8F4008826BF9C879F5875C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CC2A4A91426F12955918DDB22A241D0B /* Pods-Fun_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fun_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CDBB9281286555C156BA353392A1CB14 /* Fun.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Fun.modulemap; sourceTree = "<group>"; };
 		D60C72D51B5FF9371E13A84A7F19B8F8 /* Pods-Fun_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fun_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D6A883ADEC38138F2554DFEA142E4403 /* FunCircularScreenTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunCircularScreenTransition.swift; sourceTree = "<group>"; };
 		D97126B76D40C3FF0CEED7B7D68DE068 /* Pods-Fun_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fun_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DE4B9EE2493227DFDFC795B7030928FA /* FunTabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FunTabBarControllerDelegate.swift; sourceTree = "<group>"; };
 		E0FD594AF444421AF376BBFF7AF3F922 /* Pods-Fun_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Fun_Tests-dummy.m"; sourceTree = "<group>"; };
 		E1AC4A001E8A12E70B26BB19A85EDDAB /* Pods-Fun_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Fun_Example-umbrella.h"; sourceTree = "<group>"; };
 		E40144947D0FA8BD5BBF2F213311520B /* Pods-Fun_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Fun_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E938419251D1A226ACE5FFCA2CBCDFE1 /* Pods-Fun_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Fun_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F46489831EB1638800B44BE5 /* FunNavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunNavigationControllerDelegate.swift; path = Sources/FunControllerDelegates/FunNavigationControllerDelegate.swift; sourceTree = "<group>"; };
-		F46489881EB1647400B44BE5 /* FunTabBarControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunTabBarControllerDelegate.swift; path = Sources/FunControllerDelegates/FunTabBarControllerDelegate.swift; sourceTree = "<group>"; };
-		F464898A1EB1649D00B44BE5 /* FunModalControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunModalControllerDelegate.swift; path = Sources/FunControllerDelegates/FunModalControllerDelegate.swift; sourceTree = "<group>"; };
-		F464898C1EB164C500B44BE5 /* FunAnimatedInteractiveTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunAnimatedInteractiveTransitioning.swift; path = Sources/FunInteractiveTransitioning/FunAnimatedInteractiveTransitioning.swift; sourceTree = "<group>"; };
-		F464898E1EB1650D00B44BE5 /* FunTransitionAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunTransitionAnimator.swift; path = Sources/FunTransitionsMain/FunTransitionAnimator.swift; sourceTree = "<group>"; };
-		F46489901EB1653B00B44BE5 /* FunTransitionLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunTransitionLoader.swift; path = Sources/FunTransitionsMain/FunTransitionLoader.swift; sourceTree = "<group>"; };
-		F46489921EB1658800B44BE5 /* FunZoomBlurTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunZoomBlurTransition.swift; path = Sources/FunTransitions/FunZoomBlurTransition.swift; sourceTree = "<group>"; };
-		F46489941EB165BC00B44BE5 /* FunCrystallizeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunCrystallizeTransition.swift; path = Sources/FunTransitions/FunCrystallizeTransition.swift; sourceTree = "<group>"; };
-		F46489961EB165E400B44BE5 /* FunCircleSplashTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunCircleSplashTransition.swift; path = Sources/FunTransitions/FunCircleSplashTransition.swift; sourceTree = "<group>"; };
-		F46489981EB1660C00B44BE5 /* FunCircularScreenTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunCircularScreenTransition.swift; path = Sources/FunTransitions/FunCircularScreenTransition.swift; sourceTree = "<group>"; };
-		F464899A1EB1663100B44BE5 /* FunKaleidoscopeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FunKaleidoscopeTransition.swift; path = Sources/FunTransitions/FunKaleidoscopeTransition.swift; sourceTree = "<group>"; };
+		F19754A3A6A6E5D6C2C5543679B0CD22 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
 		F4B21C424E35D2ACA44EC8C1966CD74C /* Pods-Fun_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Fun_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,14 +99,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AB84F59FC71771C6C3EC61E26618660 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DEF71A6AD1D0FB8040A9B18C69E056DB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8F65AFB35D4E0178A830713CC5C2947B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -109,9 +107,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4FE4B26D61A385BAF08472E59182C56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0228FAB74D3D6D84A02551152D7C8329 /* Foundation.framework in Frameworks */,
+				9520C422A69684A0B30EF6FAFE6CF404 /* GLKit.framework in Frameworks */,
+				2BCCBFD459852B474DF7CDE773D5FFB7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A8B65A6246161A99E40E58A11099C21 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				206DA000BB8CECF5A4AC460534279430 /* FunControllerDelegates */,
+				4DCD5E25243AF652C6F946BF5F9FDB73 /* FunInteractiveTransitioning */,
+				690E241905C66E6A6B67B4B888AC298F /* FunTransitions */,
+				2D7E778352C8451EE09A6BD6624E78AF /* FunTransitionsMain */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		0D3E16B64C2166C107F41CF11D718B0D /* Pods-Fun_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,28 +150,67 @@
 			path = "Target Support Files/Pods-Fun_Tests";
 			sourceTree = "<group>";
 		};
-		13C1F6D51AA773984F7605B5D6EBF03F /* Support Files */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5FB695B2FF7104A000DD3CA7E3F091CD /* Fun.modulemap */,
-				98BCB93327326F6C8537C6C289A54D95 /* Fun.xcconfig */,
-				990E2ACAFEFF4C674A317442A23402B4 /* Fun-dummy.m */,
-				B8E4C56BB0879FD427AB90E11B42FD2C /* Fun-prefix.pch */,
-				C494737BB719894D7854217D5FAF2433 /* Fun-umbrella.h */,
-				CB0C3C9842C6E1E2ACD451FEDA223ABD /* Info.plist */,
+				77D4D4F06C174A9ACE3323375DAE0832 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EEE2938D5D092455F0287F5E92D2592 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDBB9281286555C156BA353392A1CB14 /* Fun.modulemap */,
+				AE985018E801A9F728B6DEA0FCE400E2 /* Fun.xcconfig */,
+				A6D5C3896D064960227BA85E39C8B8E8 /* Fun-dummy.m */,
+				974965AF14B88BB023DDD924DF612C44 /* Fun-prefix.pch */,
+				8B1F5D050530F749BAF05EB63AFAD0C8 /* Fun-umbrella.h */,
+				A6DA99D84E1FBC7FC73C5A8363E8CAEA /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/Fun";
 			sourceTree = "<group>";
 		};
-		5BFDE1125FFCB7CF713ADD31DDE34E20 /* Fun */ = {
+		206DA000BB8CECF5A4AC460534279430 /* FunControllerDelegates */ = {
 			isa = PBXGroup;
 			children = (
-				F464897F1EB1633800B44BE5 /* Sources */,
-				13C1F6D51AA773984F7605B5D6EBF03F /* Support Files */,
+				C7BB4E95A6667267573ED0F42C675231 /* FunModalControllerDelegate.swift */,
+				28C7937E48261FF2C2F2663571EB2CB5 /* FunNavigationControllerDelegate.swift */,
+				DE4B9EE2493227DFDFC795B7030928FA /* FunTabBarControllerDelegate.swift */,
+			);
+			name = FunControllerDelegates;
+			path = FunControllerDelegates;
+			sourceTree = "<group>";
+		};
+		2D7E778352C8451EE09A6BD6624E78AF /* FunTransitionsMain */ = {
+			isa = PBXGroup;
+			children = (
+				050A197BC9E1894A27F3CBE73F77A7D6 /* FunCoreImageTransition.swift */,
+				5D513C986497732171A33D3B3C4008AF /* FunTransitionAnimator.swift */,
+				5A907A134A5C040A2A4DEC3DE9CD053F /* FunTransitionLoader.swift */,
+			);
+			name = FunTransitionsMain;
+			path = FunTransitionsMain;
+			sourceTree = "<group>";
+		};
+		38E5D12E801E207F787FAAE65418A6F2 /* Fun */ = {
+			isa = PBXGroup;
+			children = (
+				0A8B65A6246161A99E40E58A11099C21 /* Sources */,
+				1EEE2938D5D092455F0287F5E92D2592 /* Support Files */,
 			);
 			name = Fun;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		4DCD5E25243AF652C6F946BF5F9FDB73 /* FunInteractiveTransitioning */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9886BD42CD265D35403FE501EE468 /* FunAnimatedInteractiveTransitioning.swift */,
+			);
+			name = FunInteractiveTransitioning;
+			path = FunInteractiveTransitioning;
 			sourceTree = "<group>";
 		};
 		668F4FC0A71C001479B8C91EE07C83B2 /* Products */ = {
@@ -164,12 +223,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		690E241905C66E6A6B67B4B888AC298F /* FunTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				270EF81A7D754A53A43AE89229CEE913 /* FunCircleSplashTransition.swift */,
+				D6A883ADEC38138F2554DFEA142E4403 /* FunCircularScreenTransition.swift */,
+				55DE810DA61AE4D718BFB8FF115E0899 /* FunCrystallizeTransition.swift */,
+				A70727A2B08C59938DC16B9084933E59 /* FunKaleidoscopeTransition.swift */,
+				1D40C4F545BD62B39282AC92ED03008B /* FunZoomBlurTransition.swift */,
+			);
+			name = FunTransitions;
+			path = FunTransitions;
+			sourceTree = "<group>";
+		};
 		6B2AD311373A27E1715178C225F1201F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5BFDE1125FFCB7CF713ADD31DDE34E20 /* Fun */,
+				38E5D12E801E207F787FAAE65418A6F2 /* Fun */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		77D4D4F06C174A9ACE3323375DAE0832 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C97132B3BB8F4008826BF9C879F5875C /* Foundation.framework */,
+				F19754A3A6A6E5D6C2C5543679B0CD22 /* GLKit.framework */,
+				2B604C8852EF4AD083709F03EA35B7AA /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -177,7 +259,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				6B2AD311373A27E1715178C225F1201F /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
 				668F4FC0A71C001479B8C91EE07C83B2 /* Products */,
 				AB198583F556FD731012FCF161BF8F8A /* Targets Support Files */,
 			);
@@ -190,14 +272,6 @@
 				0D3E16B64C2166C107F41CF11D718B0D /* Pods-Fun_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C622870FF944267E462BB728FA0C2128 /* Pods-Fun_Example */ = {
@@ -218,64 +292,6 @@
 			path = "Target Support Files/Pods-Fun_Example";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F464897F1EB1633800B44BE5 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				F46489801EB1634000B44BE5 /* FunControllerDelegates */,
-				F46489851EB163D200B44BE5 /* FunInteractiveTransitioning */,
-				F46489861EB163FA00B44BE5 /* FunTransitionsMain */,
-				F46489871EB1641100B44BE5 /* FunTransitions */,
-			);
-			name = Sources;
-			sourceTree = "<group>";
-		};
-		F46489801EB1634000B44BE5 /* FunControllerDelegates */ = {
-			isa = PBXGroup;
-			children = (
-				F46489831EB1638800B44BE5 /* FunNavigationControllerDelegate.swift */,
-				F46489881EB1647400B44BE5 /* FunTabBarControllerDelegate.swift */,
-				F464898A1EB1649D00B44BE5 /* FunModalControllerDelegate.swift */,
-			);
-			name = FunControllerDelegates;
-			sourceTree = "<group>";
-		};
-		F46489851EB163D200B44BE5 /* FunInteractiveTransitioning */ = {
-			isa = PBXGroup;
-			children = (
-				F464898C1EB164C500B44BE5 /* FunAnimatedInteractiveTransitioning.swift */,
-			);
-			name = FunInteractiveTransitioning;
-			sourceTree = "<group>";
-		};
-		F46489861EB163FA00B44BE5 /* FunTransitionsMain */ = {
-			isa = PBXGroup;
-			children = (
-				F464898E1EB1650D00B44BE5 /* FunTransitionAnimator.swift */,
-				F46489901EB1653B00B44BE5 /* FunTransitionLoader.swift */,
-			);
-			name = FunTransitionsMain;
-			sourceTree = "<group>";
-		};
-		F46489871EB1641100B44BE5 /* FunTransitions */ = {
-			isa = PBXGroup;
-			children = (
-				F46489921EB1658800B44BE5 /* FunZoomBlurTransition.swift */,
-				F46489941EB165BC00B44BE5 /* FunCrystallizeTransition.swift */,
-				F46489961EB165E400B44BE5 /* FunCircleSplashTransition.swift */,
-				F46489981EB1660C00B44BE5 /* FunCircularScreenTransition.swift */,
-				F464899A1EB1663100B44BE5 /* FunKaleidoscopeTransition.swift */,
-			);
-			name = FunTransitions;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -287,6 +303,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		324B872FAA96A4929EF9E55E10AFDCD1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AABCB86BEE653332DB76D9010B6EA4A2 /* Fun-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		94EF9E0792AF4993B39C694EC8BB41F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -295,34 +319,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E006F2C16EFCB9EEE83AAF310B6631DC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01908880DE13735F3DD882146A48C236 /* Fun-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1D503C77D6A9C69BA39C53141827943A /* Fun */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5ACAAE1E4497EE79D1944DC8D23F8E98 /* Build configuration list for PBXNativeTarget "Fun" */;
-			buildPhases = (
-				AC80AB7A46E086BD11E793B60E36734D /* Sources */,
-				2AB84F59FC71771C6C3EC61E26618660 /* Frameworks */,
-				E006F2C16EFCB9EEE83AAF310B6631DC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Fun;
-			productName = Fun;
-			productReference = 3D38A3F8FE148788EE48CCB8B9089DEE /* Fun.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		63EE00645E585CDE509660BDF22F53A6 /* Pods-Fun_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C418E569239BBEC0910936F199B3A83D /* Build configuration list for PBXNativeTarget "Pods-Fun_Example" */;
@@ -358,6 +357,23 @@
 			productReference = 2F48E1B456EAC918415A3B33C8D19B7F /* Pods_Fun_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		EC82D27BEF01E20DA2EBA701BCCFAB94 /* Fun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBBF6D114F98585057BE0E58FAA0C66D /* Build configuration list for PBXNativeTarget "Fun" */;
+			buildPhases = (
+				17D734D9032B72B1BB5365BC3E1A849E /* Sources */,
+				C4FE4B26D61A385BAF08472E59182C56 /* Frameworks */,
+				324B872FAA96A4929EF9E55E10AFDCD1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fun;
+			productName = Fun;
+			productReference = 3D38A3F8FE148788EE48CCB8B9089DEE /* Fun.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -366,11 +382,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					1D503C77D6A9C69BA39C53141827943A = {
-						LastSwiftMigration = 0820;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -384,7 +395,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D503C77D6A9C69BA39C53141827943A /* Fun */,
+				EC82D27BEF01E20DA2EBA701BCCFAB94 /* Fun */,
 				63EE00645E585CDE509660BDF22F53A6 /* Pods-Fun_Example */,
 				A30F5F14C9DE413E34261A09ED39CF89 /* Pods-Fun_Tests */,
 			);
@@ -392,30 +403,31 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		17D734D9032B72B1BB5365BC3E1A849E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3139EC0BDE0E44BB6FDB0EDA4172E4C0 /* Fun-dummy.m in Sources */,
+				A13D3B41CAFC6155D2794D205C0EC6F9 /* FunAnimatedInteractiveTransitioning.swift in Sources */,
+				6F0EFCA005606F7864248A21CC5DAF13 /* FunCircleSplashTransition.swift in Sources */,
+				4E72A151C4F5A0EAADECE6672AF9BD2B /* FunCircularScreenTransition.swift in Sources */,
+				C8B5AD572B177EE74183FFFB07E5A158 /* FunCoreImageTransition.swift in Sources */,
+				B6080EF3E18321E550CE9E0CE9C8E1BA /* FunCrystallizeTransition.swift in Sources */,
+				D45A879A5C5363B90CEA39B7C42A2CDE /* FunKaleidoscopeTransition.swift in Sources */,
+				CC14D8A72622AD3DFF5C47F166D1B290 /* FunModalControllerDelegate.swift in Sources */,
+				4615A9204209BD2E9C914B16560AA992 /* FunNavigationControllerDelegate.swift in Sources */,
+				3F9339D690D524BCB9E21F394D0FECA2 /* FunTabBarControllerDelegate.swift in Sources */,
+				2DD6214D54D5B476D0AC5EB5FF7B3FF6 /* FunTransitionAnimator.swift in Sources */,
+				E7272C01ECF83B271E21649AD93760AD /* FunTransitionLoader.swift in Sources */,
+				C6E4FEEE3F0BF914EB0BFAE1765A541E /* FunZoomBlurTransition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		34B8EA68D73D3A70F96044387FD0DE59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F9CBFFAA03CADBD0F9A37F5F81DF645D /* Pods-Fun_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC80AB7A46E086BD11E793B60E36734D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F46489911EB1653B00B44BE5 /* FunTransitionLoader.swift in Sources */,
-				F464898B1EB1649D00B44BE5 /* FunModalControllerDelegate.swift in Sources */,
-				F46489991EB1660C00B44BE5 /* FunCircularScreenTransition.swift in Sources */,
-				F46489951EB165BC00B44BE5 /* FunCrystallizeTransition.swift in Sources */,
-				F464898D1EB164C500B44BE5 /* FunAnimatedInteractiveTransitioning.swift in Sources */,
-				F464899B1EB1663100B44BE5 /* FunKaleidoscopeTransition.swift in Sources */,
-				F46489891EB1647400B44BE5 /* FunTabBarControllerDelegate.swift in Sources */,
-				F46489931EB1658800B44BE5 /* FunZoomBlurTransition.swift in Sources */,
-				F464898F1EB1650D00B44BE5 /* FunTransitionAnimator.swift in Sources */,
-				F46489841EB1638800B44BE5 /* FunNavigationControllerDelegate.swift in Sources */,
-				9411CC927A734146D117A4E3B1ECFEE0 /* Fun-dummy.m in Sources */,
-				F46489971EB165E400B44BE5 /* FunCircleSplashTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,13 +445,157 @@
 		C3FAA398F067003D9DADD934A9981C7C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Fun;
-			target = 1D503C77D6A9C69BA39C53141827943A /* Fun */;
+			target = EC82D27BEF01E20DA2EBA701BCCFAB94 /* Fun */;
 			targetProxy = 9617A45783B6ADB6A647C36FB2F0F7CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		0905B5FAC8A3064F33692FAF804E2DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D97126B76D40C3FF0CEED7B7D68DE068 /* Pods-Fun_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Fun_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fun_Example/Pods-Fun_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Fun_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24561A174BF1D0226E4675FEE943470A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE985018E801A9F728B6DEA0FCE400E2 /* Fun.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Fun/Fun-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Fun/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Fun/Fun.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Fun;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		328491118B392AA0F4621E48C7D2C874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40144947D0FA8BD5BBF2F213311520B /* Pods-Fun_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Fun_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fun_Tests/Pods-Fun_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Fun_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		529CF72AE42CACE8B45C260BB0041B1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4582F851953997B8B82CBFE82DA13ACB /* Pods-Fun_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Fun_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fun_Tests/Pods-Fun_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Fun_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		643C76AA582046977B7877822ED7A258 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -479,7 +635,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -487,7 +643,46 @@
 			};
 			name = Debug;
 		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+		9D9A1B631FD9B880AE68670AC759D1E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0109342532E866E646D45E56E0E8F97E /* Pods-Fun_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Fun_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Fun_Example/Pods-Fun_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Fun_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -523,7 +718,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -531,49 +726,10 @@
 			};
 			name = Release;
 		};
-		78547C0C50747D52413382228F691177 /* Release */ = {
+		CB017291D5BCF8522FC0823BE83F225F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D97126B76D40C3FF0CEED7B7D68DE068 /* Pods-Fun_Example.release.xcconfig */;
+			baseConfigurationReference = AE985018E801A9F728B6DEA0FCE400E2 /* Fun.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Fun_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Fun_Example/Pods-Fun_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Fun_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8C6F0A5A4F44D5D377EBFF17B0BEDFE1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98BCB93327326F6C8537C6C289A54D95 /* Fun.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -589,7 +745,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Fun/Fun-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Fun/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Fun/Fun.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -604,152 +760,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		AD21CF445A3BEC93CB23CA518F6F26FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E40144947D0FA8BD5BBF2F213311520B /* Pods-Fun_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Fun_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Fun_Tests/Pods-Fun_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Fun_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CF7E1AA3B534641F9746A72F2914A20B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4582F851953997B8B82CBFE82DA13ACB /* Pods-Fun_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Fun_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Fun_Tests/Pods-Fun_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Fun_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CFC1A868719D4C1EBBAE91F412829B35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0109342532E866E646D45E56E0E8F97E /* Pods-Fun_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Fun_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Fun_Example/Pods-Fun_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Fun_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DBD5B124796AA55DD5C746C1CA329200 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98BCB93327326F6C8537C6C289A54D95 /* Fun.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Fun/Fun-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Fun/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Fun/Fun.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Fun;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -757,8 +767,8 @@
 		0EB491E976053732FF34756F9102B81E /* Build configuration list for PBXNativeTarget "Pods-Fun_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CF7E1AA3B534641F9746A72F2914A20B /* Debug */,
-				AD21CF445A3BEC93CB23CA518F6F26FB /* Release */,
+				529CF72AE42CACE8B45C260BB0041B1E /* Debug */,
+				328491118B392AA0F4621E48C7D2C874 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -766,17 +776,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				643C76AA582046977B7877822ED7A258 /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5ACAAE1E4497EE79D1944DC8D23F8E98 /* Build configuration list for PBXNativeTarget "Fun" */ = {
+		BBBF6D114F98585057BE0E58FAA0C66D /* Build configuration list for PBXNativeTarget "Fun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8C6F0A5A4F44D5D377EBFF17B0BEDFE1 /* Debug */,
-				DBD5B124796AA55DD5C746C1CA329200 /* Release */,
+				CB017291D5BCF8522FC0823BE83F225F /* Debug */,
+				24561A174BF1D0226E4675FEE943470A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -784,8 +794,8 @@
 		C418E569239BBEC0910936F199B3A83D /* Build configuration list for PBXNativeTarget "Pods-Fun_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFC1A868719D4C1EBBAE91F412829B35 /* Debug */,
-				78547C0C50747D52413382228F691177 /* Release */,
+				9D9A1B631FD9B880AE68670AC759D1E1 /* Debug */,
+				0905B5FAC8A3064F33692FAF804E2DA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

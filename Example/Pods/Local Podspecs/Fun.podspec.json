@@ -1,8 +1,8 @@
 {
   "name": "Fun",
   "version": "0.1.0",
-  "summary": "A short description of Fun.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Interactive Core Image  transition for view controller, just for fun not for real Apps",
+  "description": "TODO: Interactive Core Image  transition for view controller, just for fun not for real Apps. By using a few lines of code you can get an elegant transition.",
   "homepage": "https://github.com/frgallah/Fun",
   "license": {
     "type": "MIT",
@@ -16,7 +16,11 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "Fun/Classes/**/*"
+  "source_files": "Sources/**/*",
+  "frameworks": [
+    "UIKit",
+    "GLKit"
+  ]
 }

@@ -2,20 +2,63 @@
 //  CustomButtonStyle.swift
 //  Fun
 //
-//  Created by Home on 4/26/17.
-//  Copyright © 2017 CocoaPods. All rights reserved.
+//  Created by Frgallah on 4/11/17.
+//
+//  Copyright (c) 2017 Mohammed Frgallah. All rights reserved.
+//
+//  Licensed under the MIT license, can be found at:  https://github.com/Frgallah/Fun/blob/master/LICENSE  or  https://opensource.org/licenses/MIT
+//
+
+//  For last updated version of this code check the github page at https://github.com/Frgallah/Fun
+//
 //
 
 import UIKit
 
-class CustomButtonStyle: UIButton {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+class CircleButton: UIButton {
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        let layer = self.layer
+        layer.masksToBounds = true
+        layer.cornerRadius = self.bounds.midX
+        layer.borderWidth = 1
+        layer.borderColor = UIColor.white.cgColor
+        
     }
-    */
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        let layer = self.layer
+        layer.masksToBounds = true
+        layer.cornerRadius = self.bounds.midX
+        layer.borderWidth = 1
+        layer.borderColor = UIColor.white.cgColor
+        
+    }
+    
+}
 
+class RectangleButton: UIButton {
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        let layer = self.layer
+        layer.masksToBounds = true
+        layer.cornerRadius = 10
+        layer.borderWidth = 1
+        layer.borderColor = UIColor.white.cgColor
+        
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        let layer = self.layer
+        layer.masksToBounds = true
+        layer.cornerRadius = 10
+        layer.borderWidth = 1
+        layer.borderColor = UIColor.white.cgColor
+        
+    }
+    
 }

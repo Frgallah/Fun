@@ -2,8 +2,15 @@
 //  ModalSecondViewController.swift
 //  Fun
 //
-//  Created by Home on 4/26/17.
-//  Copyright © 2017 CocoaPods. All rights reserved.
+//  Created by Frgallah on 4/11/17.
+//
+//  Copyright (c) 2017 Mohammed Frgallah. All rights reserved.
+//
+//  Licensed under the MIT license, can be found at:  https://github.com/Frgallah/Fun/blob/master/LICENSE  or  https://opensource.org/licenses/MIT
+//
+
+//  For last updated version of this code check the github page at https://github.com/Frgallah/Fun
+//
 //
 
 import UIKit
@@ -16,6 +23,10 @@ class ModalSecondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func dismiss(_ sender: Any) {
+        self.presentingViewController?.dismiss(animated: true, completion: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

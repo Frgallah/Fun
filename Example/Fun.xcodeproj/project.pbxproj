@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		33BFA698B718877C73A4278A /* Pods_Fun_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2526AD0C0DF4A9FC908DB4FF /* Pods_Fun_Tests.framework */; };
-		3EBDFEC469B45A5725F9354A /* Pods_Fun_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5EE7896F7BD2FFF2927DCCA /* Pods_Fun_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
@@ -18,6 +16,10 @@
 		F464899F1EB1684C00B44BE5 /* ModalFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464899E1EB1684C00B44BE5 /* ModalFirstViewController.swift */; };
 		F46489A11EB1686E00B44BE5 /* ModalSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489A01EB1686E00B44BE5 /* ModalSecondViewController.swift */; };
 		F46489A31EB1688E00B44BE5 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46489A21EB1688E00B44BE5 /* CustomButtonStyle.swift */; };
+		F4A4804F1EB295B30088DDB3 /* Fun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A4804E1EB295B30088DDB3 /* Fun.framework */; };
+		F4A480511EB295B90088DDB3 /* Pods_Fun_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A480501EB295B90088DDB3 /* Pods_Fun_Example.framework */; };
+		F4A480551EB2A8590088DDB3 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4A480541EB2A8590088DDB3 /* image1.jpg */; };
+		F4A480571EB2A86E0088DDB3 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4A480561EB2A86E0088DDB3 /* image2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +34,6 @@
 
 /* Begin PBXFileReference section */
 		11E54CAF2927FA47FD4492D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2526AD0C0DF4A9FC908DB4FF /* Pods_Fun_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fun_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		308B0AF943C9DB2D44F07AC4 /* Pods-Fun_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fun_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fun_Tests/Pods-Fun_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		45B8CFFC3858341963D35EFD /* Pods-Fun_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fun_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fun_Tests/Pods-Fun_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Fun_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fun_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,7 +53,10 @@
 		F464899E1EB1684C00B44BE5 /* ModalFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalFirstViewController.swift; sourceTree = "<group>"; };
 		F46489A01EB1686E00B44BE5 /* ModalSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalSecondViewController.swift; sourceTree = "<group>"; };
 		F46489A21EB1688E00B44BE5 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
-		F5EE7896F7BD2FFF2927DCCA /* Pods_Fun_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fun_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A4804E1EB295B30088DDB3 /* Fun.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fun.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Fun-cckufyygncabcbfdaiottuhktmxw/Build/Products/Debug-iphonesimulator/Fun/Fun.framework"; sourceTree = "<group>"; };
+		F4A480501EB295B90088DDB3 /* Pods_Fun_Example.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Fun_Example.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/Fun-cckufyygncabcbfdaiottuhktmxw/Build/Products/Debug-iphonesimulator/Pods_Fun_Example.framework"; sourceTree = "<group>"; };
+		F4A480541EB2A8590088DDB3 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
+		F4A480561EB2A86E0088DDB3 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EBDFEC469B45A5725F9354A /* Pods_Fun_Example.framework in Frameworks */,
+				F4A480511EB295B90088DDB3 /* Pods_Fun_Example.framework in Frameworks */,
+				F4A4804F1EB295B30088DDB3 /* Fun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33BFA698B718877C73A4278A /* Pods_Fun_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACD41AFB9204008FA782 /* Info.plist */,
+				F4A480541EB2A8590088DDB3 /* image1.jpg */,
+				F4A480561EB2A86E0088DDB3 /* image2.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,8 +168,8 @@
 		F62702F4C5671CB741C81598 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F5EE7896F7BD2FFF2927DCCA /* Pods_Fun_Example.framework */,
-				2526AD0C0DF4A9FC908DB4FF /* Pods_Fun_Tests.framework */,
+				F4A480501EB295B90088DDB3 /* Pods_Fun_Example.framework */,
+				F4A4804E1EB295B30088DDB3 /* Fun.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,10 +230,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5U7L76AQE3;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 5U7L76AQE3;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -258,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				F4A480571EB2A86E0088DDB3 /* image2.jpg in Resources */,
+				F4A480551EB2A8590088DDB3 /* image1.jpg in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -455,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -495,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -508,6 +518,7 @@
 			baseConfigurationReference = 9907A31FE332AD83B47AA46E /* Pods-Fun_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5U7L76AQE3;
 				INFOPLIST_FILE = Fun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -522,6 +533,7 @@
 			baseConfigurationReference = A0D47AB46DC285E0382391FE /* Pods-Fun_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5U7L76AQE3;
 				INFOPLIST_FILE = Fun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -535,6 +547,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45B8CFFC3858341963D35EFD /* Pods-Fun_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5U7L76AQE3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -555,6 +568,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 308B0AF943C9DB2D44F07AC4 /* Pods-Fun_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 5U7L76AQE3;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
