@@ -17,7 +17,7 @@ import UIKit
 import GLKit
 
 
-class FunCoreImageTransition : FunInterruptibleTransitionAnimator, GLKViewDelegate {
+class FunCoreImageTransition : FunInterruptibleTransitionAnimator {
     
     var currentDuration: TimeInterval = 0
     var timerElapsedTime: TimeInterval = 0
@@ -70,10 +70,7 @@ class FunCoreImageTransition : FunInterruptibleTransitionAnimator, GLKViewDelega
         
         if let image = fromViewSnapshot {
             firstImage = CIImage.init(image: image)
-        } else {
-            print("no first image")
         }
-        
         let context: EAGLContext = EAGLContext.init(api: .openGLES2)
         let drawingView: GLKView = GLKView.init(frame: containerView.bounds, context: context)
         drawingView.contentScaleFactor = 1
@@ -330,22 +327,19 @@ class FunCoreImageTransition : FunInterruptibleTransitionAnimator, GLKViewDelega
     func drawSecondImage() {
         
     }
-    
-    
+
+}
+
+extension FunCoreImageTransition : GLKViewDelegate {
     func glkView(_ view: GLKView, drawIn rect: CGRect) {
         
         if let image = outputImage {
             
             if let context = drawingContext {
                 context.draw(image, in: rect, from: image.extent)
-            } else {
-                print("no context failed to draw output image from glkview delegate")
             }
-        } else {
-            print("no image failed to draw output image from glkview delegate")
         }
         
     }
-    
-}
 
+}
