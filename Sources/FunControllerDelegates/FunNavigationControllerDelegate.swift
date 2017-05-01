@@ -113,7 +113,7 @@ public class FunNavigationControllerDelegate: NSObject {
         
     }
     
-    func configurePanGestureRecognizer() {
+    private func configurePanGestureRecognizer() {
         panGestureRecognizer = UIPanGestureRecognizer()
         panGestureRecognizer?.delegate = self
         panGestureRecognizer?.maximumNumberOfTouches = 1
@@ -124,11 +124,11 @@ public class FunNavigationControllerDelegate: NSObject {
         panGestureRecognizer?.require(toFail: interactivePopGestureRecognizer)
     }
     
-    func removeGestureRecognizer() {
+    private func removeGestureRecognizer() {
         //
     }
     
-    func panGestureRecognizerDidPan(_ gesture: UIPanGestureRecognizer) {
+    @objc private func panGestureRecognizerDidPan(_ gesture: UIPanGestureRecognizer) {
         if ((navigationController?.transitionCoordinator) != nil) {
             return
         }
@@ -137,6 +137,7 @@ public class FunNavigationControllerDelegate: NSObject {
         }
     }
     
+    private
     func beginInteractiveTransitionIfPossible(gesture: UIPanGestureRecognizer) {
         
         let translation: CGPoint = gesture.translation(in: navigationController?.view)

@@ -106,7 +106,7 @@ public class FunTabBarControllerDelegate: NSObject {
         NSLog(" tabBar delegate has been deinit ")
     }
     
-    func configurePanGestureRecognizer() {
+    private func configurePanGestureRecognizer() {
         panGestureRecognizer = UIPanGestureRecognizer()
         panGestureRecognizer?.delegate = self
         panGestureRecognizer?.maximumNumberOfTouches = 1
@@ -115,11 +115,11 @@ public class FunTabBarControllerDelegate: NSObject {
         
     }
     
-    func removeGestureRecognizer() {
+    private func removeGestureRecognizer() {
         //
     }
     
-    func panGestureRecognizerDidPan(_ gesture: UIPanGestureRecognizer) {
+    @objc private func panGestureRecognizerDidPan(_ gesture: UIPanGestureRecognizer) {
         
         if ((tabBarController?.transitionCoordinator) != nil) {
             return
@@ -130,7 +130,7 @@ public class FunTabBarControllerDelegate: NSObject {
         }
     }
     
-    func beginInteractiveTransitionIfPossible(gesture: UIPanGestureRecognizer) {
+    private func beginInteractiveTransitionIfPossible(gesture: UIPanGestureRecognizer) {
         
         let translation: CGPoint = gesture.translation(in: tabBarController!.view)
         if translation.x > 0.0 && (tabBarController?.selectedIndex)! > 0 {

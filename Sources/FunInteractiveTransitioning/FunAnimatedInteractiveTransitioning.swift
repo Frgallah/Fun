@@ -55,7 +55,7 @@ class FunAnimatedInteractiveTransitioning: NSObject {
         
         super.init()
         transition = FunTransitionLoader.transitionForType(transitionType: transitionType)
-        self.transition.duration = duration > 0 ? duration : self.transition.defaultDuration
+        transition.duration = duration > 0 ? duration : transition.defaultDuration
         self.duration = transition.duration
         
         if let gesture = panGestureRecognizer {
@@ -71,7 +71,7 @@ class FunAnimatedInteractiveTransitioning: NSObject {
         NSLog(" AnimatedInteractiveTransitioning has been deinit ")
     }
     
-    func updateInteractionFor(gesture: UIPanGestureRecognizer)
+    @objc private func updateInteractionFor(gesture: UIPanGestureRecognizer)
     {
         switch gesture.state {
         case .began: break
@@ -99,7 +99,7 @@ class FunAnimatedInteractiveTransitioning: NSObject {
         
     }
     
-    func percentFor(gesture: UIPanGestureRecognizer) -> CGFloat {
+    private func percentFor(gesture: UIPanGestureRecognizer) -> CGFloat {
         
         guard let containerView = context?.containerView else {
             return lastPercentage
@@ -135,7 +135,7 @@ class FunAnimatedInteractiveTransitioning: NSObject {
         return percentage
     }
     
-    func completionPosition() -> UIViewAnimatingPosition {
+    private func completionPosition() -> UIViewAnimatingPosition {
         if transition.fractionComplete < transition.midDuration {
             return .start;
         } else {
@@ -143,7 +143,7 @@ class FunAnimatedInteractiveTransitioning: NSObject {
         }
     }
     
-    func endInteraction() {
+    private func endInteraction() {
         
         guard let transitiContext = context , transitiContext.isInteractive else { return }
         let position = completionPosition()
@@ -157,7 +157,7 @@ class FunAnimatedInteractiveTransitioning: NSObject {
         
     }
     
-    func transitionAnimator() -> FunTransitionAnimator {
+    private func transitionAnimator() -> FunTransitionAnimator {
         if transition == nil {
             return FunTransitionLoader.transitionForType(transitionType: transitionType)
             

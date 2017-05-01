@@ -143,11 +143,11 @@ public class FunModalControllerDelegate: NSObject {
         
     }
     
-    func removeGestureForDismissalRecognizer() {
+    private func removeGestureForDismissalRecognizer() {
         //
     }
     
-    func panGestureForPresentationDidPan(_ gesture: UIPanGestureRecognizer) {
+    @objc private func panGestureForPresentationDidPan(_ gesture: UIPanGestureRecognizer) {
         
         if ((sourceController?.transitionCoordinator) != nil) {
             return
@@ -158,7 +158,7 @@ public class FunModalControllerDelegate: NSObject {
         }
     }
     
-    func panGestureForDismissalDidPan(_ gesture: UIPanGestureRecognizer) {
+    @objc private func panGestureForDismissalDidPan(_ gesture: UIPanGestureRecognizer) {
         
         if ((destinationController?.transitionCoordinator) != nil) {
             return
@@ -170,7 +170,7 @@ public class FunModalControllerDelegate: NSObject {
         
     }
     
-    func beginInteractivePresentationTransitionIfPossible(gesture: UIPanGestureRecognizer) {
+    private func beginInteractivePresentationTransitionIfPossible(gesture: UIPanGestureRecognizer) {
         
         let translation: CGPoint = gesture.translation(in: sourceController?.view)
         guard let toController = destinationController else { return }
@@ -206,7 +206,7 @@ public class FunModalControllerDelegate: NSObject {
         
     }
     
-    func beginInteractiveDismissalTransitionIfPossible(gesture: UIPanGestureRecognizer) {
+    private func beginInteractiveDismissalTransitionIfPossible(gesture: UIPanGestureRecognizer) {
         
         let translation: CGPoint = gesture.translation(in: destinationController?.view)
         guard let presentingController = destinationController?.presentingViewController else { return }
